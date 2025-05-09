@@ -1,0 +1,56 @@
+Levantamento de requisitos - Cantina Pro Max
+ 
+
+  Menu inicial
+-Tela de login - com criptografia
+- | Cozinha | Cantineiro | Administrador | Telão |
+
+- Estufa:  estoque dos produtos prontos
+
+
+             Estoque
+     Produto estocado
+- Código por ID do produtos, Nome e quantidade
+- Aviso de esgotamento do produto
+
+
+           Menu balcão
+- Pode cancelar qualquer pedido
+- Estoque de produtos prontos - deduzir apenas os salgados
+- Checagem de estoque e estufa - deduzir apenas os salgados
+- Se estoque e estufa mínimo, alerta para comprar mais
+- Se o pedido tiver apenas produtos entregues na hora não precisa cadastrar nome
+- Se precisar esperar cadastrar nome
+- Entregar tudo junto, pedidos com frente de loja e chapa. Ex: Misto e pão de queijo
+     Produto 
+- Código por ID do produtos, Nome e valor
+- Horário e quanto tempo demorou os pedidos em todos os status
+- Aviso de esgotamento do produto
+- Fazer o pedido no caixa e aparecer na cozinha
+- Item e quantidade
+- Histórico com status dos pedidos
+- Pedido confirmado pela cozinha é enviado ao atendente que confirma e vai para o telão de produtos prontos e em preparação
+             Status dos pedidos para o cantineiro
+- Status : | Pedido criado | Preparando | Pronto pra retirar | Entregue | Estornado |
+- Identificação para pedidos pra viagem e pedido pra consumo imediato
+
+          Telão
+- Tela para exibir produtos prontos e em preparação(do mais antigo pro mais novo| do mais novo para o mais antigo) (Preparando|Pronto)
+
+   Tela Cozinha
+- Receber a comanda do pedido
+- Cozinha pode cancelar apenas pedidos criados, após status preparando não pode cancelar mais
+- Horário e quanto tempo demorou os pedidos em todos os status
+- Fazer o pedido no caixa e aparecer na cozinha
+- Pedido confirmado pela cozinha é enviado ao atendente que confirma e vai para o telão de produtos prontos e em preparação
+
+- Criar Banco de dados 
+- Salvar todas as informações no HDD
+
+
+PRIORIDADE
+
+1- Menu Balcão
+2- Menu Cozinha
+3- Menu ADM
+4- Tela de login
